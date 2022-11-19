@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Hub</title>
+    <link
+      rel="icon"
+      href="https://freeiconshop.com/wp-content/uploads/edd/code-flat.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./codehub.css">
+  </head>
+  <body id="body">
+    <h1>CodeHub <span class="tdg">ThaDingGyut</span> JavaScript Course</h1>
+    <div class="container mb-2">
+      <div class="box">
+        <h2>
+          Drive<i class="fa-brands fa-google-drive"></i><br />Lesson(1-49)
+        </h2>
+        <img
+          src="https://www.freecodecamp.org/news/content/images/2022/05/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
+          class="img"
+          alt=""
+        />
+        <a
+          href="https://drive.google.com/drive/folders/1ogvpI2OtdaPmSGycqnALu_3gfwgXriJB"
+          target="_blank"
+          >Go to drive</a
+        >
+      </div>
+      <div class="box">
+        <h2>
+          Drive<i class="fa-brands fa-google-drive"></i><br />Lesson(50-125)
+        </h2>
+        <img
+          src="https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg"
+          class="img"
+          alt=""
+        />
+        <a
+          href="https://drive.google.com/drive/folders/1DB8JFBg4fLD3IYfnRS5fH3zDHPkK6fve"
+          target="_blank"
+          >Go to drive</a
+        >
+      </div>
+      <div class="box">
+        <h2>
+          Code Hub<i class="fa-brands fa-facebook"></i><br />Facebook Page
+        </h2>
+        <img
+          src="https://yt3.ggpht.com/qc_bOugSwjuQCBPhd2oogswaHVdXY01Fxq8bfLUUnVN6Mbue01WHCyRUzHUWtTVAMHNI6Y4qXA=s900-c-k-c0x00ffffff-no-rj"
+          class="img"
+          alt=""
+        />
+        <a href="https://www.facebook.com/codehub.mm/" target="_blank"
+          >Go to Facebook</a
+        >
+      </div>
+      <div class="box">
+        <h2>
+          Code Hub<i class="fa-brands fa-youtube"></i><br />YouTube Channel
+        </h2>
+        <img
+          src="https://yt3.ggpht.com/ytc/AMLnZu-_sBka1xy5hF9wQPuPV-Q61GUtvF_1qq1Bw7Rq=s900-c-k-c0x00ffffff-no-rj"
+          class="img"
+          alt=""
+        />
+        <a
+          href="https://youtube.com/channel/UCGF6qMTaldt2ev4Q-ahu1Jw"
+          target="_blank"
+          >Go to YouTube</a
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div class="bottom-box margin-auto">
+        <img
+          src="https://i.pinimg.com/736x/71/c8/a7/71c8a71976fd4e084be44b180031ef28.jpg"
+          class="bottom-img"
+          alt=""
+        />
+        <div class="bottom-text">
+          <h2><span class="red">Code Hub</span> Telegram Channel And Github Account Links</h2>
+          <div class="icon">
+            <a href="https://t.me/+zZSuTONXg7NlNjE1" target="_blank"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <p class="change_white1">
+              <span class="secondary-text">Telegram</span> Discussion Group<br /><i
+                class="fa-solid fa-arrow-left"
+              ></i>
+              Click Here
+            </p>
+            <a href="https://github.com/CodeHubMyanmar" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <p class="change_white2">
+              <span class="secondary-text">Github</span> Account Link<br /><i
+                class="fa-solid fa-arrow-left"
+              ></i>
+              Click Here
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p id="letter">Made By <i class="fa-solid fa-heart " id="icon"></i>Waiyan Tun</p>
+      <button class="btn-color">Dark Mode</button> 
+    </div>
+  <div class="project-box">
+    <div class="guess-project">
+      <h1>Guess the number game project</h1>
+      <div class="guess-box" id="guess_box">
+        <h2 class="pad-10">I'm thinking of a number between 1-50.<br>
+        Can you guess it bro?</h2>
+        <input type="number"  class="input-number" id="guess_num">
+        <button class="btn-guess border-blue" onclick="play()">Guess</button>
+        <p class="msg1"></p>
+        <p class="msg2"></p>
+        <p class="msg3">Guessed numbers are : </p>
+        <button class="btn-reset " onclick="restart()">Restart</button>
+      </div>
+    </div>
+    <div class="clock-project">
+      <div class="clock-box">
+        <div class="hms"></div>
+        <div class="dmy"></div>
+      </div>
+      <h1>Digital Clock Project</h1>
+    </div>
+  </div>
+
+  <main id="main">
+    <div class="table-container">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>IMAGE</th>
+                <th>TITLE</th>
+                <th>PRICE</th>
+            </tr>
+
+        </table>
+    </div>
+    <div class="detailDiv">
+        
+    </div>   
+  </main>
+
+    
+  
+  
+    <script>
+         /*----Dark Mode------*/
+        document.querySelector(".btn-color").addEventListener("click", _ => {
+          document.getElementById("body").classList.toggle("black");
+          document.querySelector(".tdg").classList.toggle("red");
+          document.querySelector(".change_white1").classList.toggle("white");
+          document.querySelector(".change_white2").classList.toggle("white");
+          document.querySelector(".project-box").classList.toggle("black2");
+          document.getElementById("main").classList.toggle("black3");
+          //Dark/Light Text
+          let dark_light = document.querySelector(".btn-color");
+          if (dark_light.innerHTML === "Dark Mode") {
+              dark_light.innerHTML = "Light Mode";
+          }else {
+            dark_light.innerHTML = "Dark Mode";
+          }
+        })
+      
+    </script>
+    <script src="./guess.js"></script>
+    <script src="./digital_clock.js"></script>
+    <script src="./shopping.js"></script>
+  </body>
+</html>
